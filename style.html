@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css에서 주석달기 */
+        p{
+            color:red;
+        }   
+        p:active{
+            color:blue;
+        }
+        .paragraph{
+            color:chartreuse;
+        }
+
+        #hi{
+            color:aqua;
+        }
+
+        input:focus{
+            background-color: rgb(43, 170, 11);
+        }
+
+        input:checked{
+            margin-left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <P>안녕하세요</p>
+    <P>안녕하세요</P>
+    <span class="paragraph">반갑습니다</span>
+    <div class="paragraph">영역 태그</div>
+    <p id="hi">이 부분만 aqua</p>
+
+    <input type="text" />
+    <input type="checkbox" />
+</body>
+</html>

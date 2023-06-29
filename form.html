@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--action은 처리할 서버의 URL-->
+    <form action="register" method="get" enctype="multipart/form-data">
+    <!--name은 서버에서 사용하기 위한 이름-->
+    <!--id는 클라이언트에서 사용하기 위한 이름-->
+        <label>이름:<input type="text" name="" id="" /> </label>
+    <br/>
+    <p>
+        <input name="gender" type="radio" /> 남자
+        <input name="gender" type="radio" checked="checked"/> 여자
+    </p>
+    <p>
+        <input name="age" type="radio" checked="checked" /> 19세이하
+        <input name="age" type="radio" /> 20대
+        <input name="age" type="radio" /> 30대
+        <input name="age" type="radio" /> 40세이상
+    </p>
+    <button>보내기</button>
+    <div>블록</div>
+    <span>인라인</span>
+    <span>인라인</span>
+    <iframe src="index.html" width="500" height="500"></iframe>
+    </form>
+</body>
+</html>
